@@ -36,4 +36,8 @@
     <content src="index.html" />
     <access origin="*" />
     <gcmSenderId>69583903294</gcmSenderId>
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
+    <preference name="CameraUsesGeolocation" value="false" />
 </widget>
