@@ -27,4 +27,10 @@
     <content src="index.html" />
     <access origin="*" />
     <gcmSenderId>69583903294</gcmSenderId>
+    <feature name="Device">
+        <param name="android-package" value="org.apache.cordova.device.Device" />
+    </feature>
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.networkinformation.NetworkManager" />
+    </feature>
 </widget>

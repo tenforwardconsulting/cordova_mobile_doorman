@@ -33,11 +33,14 @@
     }
     
     NSMutableArray* recipients = [command.arguments objectAtIndex:0];
-    if (recipients != nil) {
-        if ([recipients.firstObject isEqual: @""]) {
-            [recipients replaceObjectAtIndex:0 withObject:@"?"];
-        }
+    if ( recipients == nil ||
+         recipients.firstObject == nil ||
+         [recipients.firstObject isEqual: @""] ||
+         [recipients.firstObject isEqual:[NSNull null]] ) {
+    
+        [composeViewController setRecipients: @[@"?"]];
         
+    } else {
         [composeViewController setRecipients:recipients];
     }
     

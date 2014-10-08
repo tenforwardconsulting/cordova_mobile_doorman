@@ -10,29 +10,29 @@
 	<string>Mobile Doorman</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>23F48D9E-E4AB-4677-8F1E-D3FDAF373E25</key>
+		<key>C5BB80D3F9C3BADEACA7C276163AE38D9E4A6F14</key>
 		<string>ssh://github.com/tenforwardconsulting/cordova_mobile_doorman.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>platforms/ios/Mobile Doorman.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>23F48D9E-E4AB-4677-8F1E-D3FDAF373E25</key>
+		<key>C5BB80D3F9C3BADEACA7C276163AE38D9E4A6F14</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>ssh://github.com/tenforwardconsulting/cordova_mobile_doorman.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>23F48D9E-E4AB-4677-8F1E-D3FDAF373E25</string>
+	<string>C5BB80D3F9C3BADEACA7C276163AE38D9E4A6F14</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>23F48D9E-E4AB-4677-8F1E-D3FDAF373E25</string>
+			<string>C5BB80D3F9C3BADEACA7C276163AE38D9E4A6F14</string>
 			<key>IDESourceControlWCCName</key>
 			<string>cordova_mobile_doorman</string>
 		</dict>

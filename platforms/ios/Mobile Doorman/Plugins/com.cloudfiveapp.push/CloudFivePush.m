@@ -38,7 +38,7 @@
 }
 -(void) didFailToRegisterForRemoteNotificationsWithError:(NSError *)error
 {
-    NSLog(@"Error registering for push");
+    NSLog(@"Error registering for push %@", error);
     [self sendResult:@{@"event": @"registration", @"success": @NO, @"error": [error localizedDescription]} ];
 }
 
