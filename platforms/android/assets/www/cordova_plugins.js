@@ -50,6 +50,13 @@ module.exports = [
         ]
     },
     {
+        "file": "plugins/com.jsmobile.plugins.sms/www/sms.js",
+        "id": "com.jsmobile.plugins.sms.sms",
+        "clobbers": [
+            "window.sms"
+        ]
+    },
+    {
         "file": "plugins/org.apache.cordova.file/www/DirectoryEntry.js",
         "id": "org.apache.cordova.file.DirectoryEntry",
         "clobbers": [
@@ -202,6 +209,7 @@ module.exports.metadata =
     "com.cloudfiveapp.push": "0.0.1",
     "org.apache.cordova.camera": "0.3.2",
     "org.apache.cordova.file-transfer": "0.4.6",
+    "com.jsmobile.plugins.sms": "0.0.1",
     "org.apache.cordova.file": "1.3.1"
 }
 // BOTTOM OF METADATA

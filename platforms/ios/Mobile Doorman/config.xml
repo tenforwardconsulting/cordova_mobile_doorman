@@ -33,6 +33,9 @@
     <feature name="FileTransfer">
         <param name="ios-package" value="CDVFileTransfer" />
     </feature>
+    <feature name="Sms">
+        <param name="ios-package" value="Sms" />
+    </feature>
     <name>Mobile Doorman</name>
     <description>
         Apartment building management app
