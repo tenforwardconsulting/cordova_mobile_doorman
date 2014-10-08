@@ -97,7 +97,7 @@
         "org.apache.cordova.file-transfer": {
             "PACKAGE_NAME": "com.mobiledoormanapp.core"
         },
-        "com.jsmobile.plugins.sms": {
+        "org.apache.cordova.plugin.sms": {
             "PACKAGE_NAME": "com.mobiledoormanapp.core"
         }
     },

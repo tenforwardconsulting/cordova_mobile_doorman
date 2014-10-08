@@ -48,9 +48,8 @@
 		1060EF45FD8B4C4CA61101C3 /* CDVLocalFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = B28CC872E0DC4DC0BA50370F /* CDVLocalFilesystem.m */; };
 		E6AE676A74A44611BCF394D2 /* CDVAssetLibraryFilesystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A33A10F2404B118A1034D8 /* CDVAssetLibraryFilesystem.m */; };
 		2E3B188DCE23406281950175 /* CDVFileTransfer.m in Sources */ = {isa = PBXBuildFile; fileRef = 858A0B4094904A1A89B61525 /* CDVFileTransfer.m */; };
-		D927044362C84BE58EB1C6DE /* Sms.h in Resources */ = {isa = PBXBuildFile; fileRef = 0FF19206404A49B2842F9FBB /* Sms.h */; };
-		8662B0338EBE40F88D5D2776 /* Sms.m in Sources */ = {isa = PBXBuildFile; fileRef = 846521DD7FE747A788022863 /* Sms.m */; };
-		BABE582D82714EA2ADB957BE /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30E0599B595E4177BB2F3EFA /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		FE85744DE7EB4ED784C0C3E2 /* Sms.m in Sources */ = {isa = PBXBuildFile; fileRef = 849B779AA6F04CD89D02DB02 /* Sms.m */; };
+		B9E94C1BDE22486D9116F557 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93ADFAA5F3C74106AE98EAC2 /* MessageUI.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -134,9 +133,9 @@
 		B9B24BE737BA4F99843CE4CB /* CDVAssetLibraryFilesystem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVAssetLibraryFilesystem.h"; path = "org.apache.cordova.file/CDVAssetLibraryFilesystem.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		858A0B4094904A1A89B61525 /* CDVFileTransfer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVFileTransfer.m"; path = "org.apache.cordova.file-transfer/CDVFileTransfer.m"; sourceTree = "<group>"; fileEncoding = 4; };
 		EFA4E73C973A4FE8B8A564C8 /* CDVFileTransfer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVFileTransfer.h"; path = "org.apache.cordova.file-transfer/CDVFileTransfer.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		0FF19206404A49B2842F9FBB /* Sms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sms.h"; path = "com.jsmobile.plugins.sms/Sms.h"; sourceTree = "<group>"; fileEncoding = 4; };
-		846521DD7FE747A788022863 /* Sms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Sms.m"; path = "com.jsmobile.plugins.sms/Sms.m"; sourceTree = "<group>"; fileEncoding = 4; };
-		30E0599B595E4177BB2F3EFA /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		849B779AA6F04CD89D02DB02 /* Sms.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "Sms.m"; path = "org.apache.cordova.plugin.sms/Sms.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		80D138FFAC7948F8A2DBEA82 /* Sms.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Sms.h"; path = "org.apache.cordova.plugin.sms/Sms.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		93ADFAA5F3C74106AE98EAC2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MessageUI.framework"; path = "System/Library/Frameworks/MessageUI.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,7 +149,7 @@
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
 				710E6CDBA6554F52B7518CDA /* ImageIO.framework in Frameworks */,
 				1655793FC4174167A4C3EDD4 /* CoreLocation.framework in Frameworks */,
-				BABE582D82714EA2ADB957BE /* MessageUI.framework in Frameworks */,
+				B9E94C1BDE22486D9116F557 /* MessageUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,7 +245,7 @@
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
 				EA1735B791EE4CEFAB159C0F /* ImageIO.framework */,
 				F09F69240DAE462A995198B7 /* CoreLocation.framework */,
-				30E0599B595E4177BB2F3EFA /* MessageUI.framework */,
+				93ADFAA5F3C74106AE98EAC2 /* MessageUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -279,8 +278,8 @@
 				B9B24BE737BA4F99843CE4CB /* CDVAssetLibraryFilesystem.h */,
 				858A0B4094904A1A89B61525 /* CDVFileTransfer.m */,
 				EFA4E73C973A4FE8B8A564C8 /* CDVFileTransfer.h */,
-				0FF19206404A49B2842F9FBB /* Sms.h */,
-				846521DD7FE747A788022863 /* Sms.m */,
+				849B779AA6F04CD89D02DB02 /* Sms.m */,
+				80D138FFAC7948F8A2DBEA82 /* Sms.h */,
 			);
 			name = Plugins;
 			path = "Mobile Doorman/Plugins";
@@ -484,8 +483,7 @@
 				1060EF45FD8B4C4CA61101C3 /* CDVLocalFilesystem.m in Sources */,
 				E6AE676A74A44611BCF394D2 /* CDVAssetLibraryFilesystem.m in Sources */,
 				2E3B188DCE23406281950175 /* CDVFileTransfer.m in Sources */,
-				D927044362C84BE58EB1C6DE /* Sms.h in Resources */,
-				8662B0338EBE40F88D5D2776 /* Sms.m in Sources */,
+				FE85744DE7EB4ED784C0C3E2 /* Sms.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
