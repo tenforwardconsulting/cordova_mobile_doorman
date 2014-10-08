@@ -1,0 +1,26 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"CloudFivePush\"><param name=\"ios-package\" value=\"CloudFivePush\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "com.cloudfiveapp.push": {
+            "PACKAGE_NAME": "com.mobiledoormanapp.core"
+        }
+    },
+    "dependent_plugins": {}
+}
