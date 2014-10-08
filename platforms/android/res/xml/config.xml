@@ -4,6 +4,9 @@
     <feature name="CloudFivePush">
         <param name="android-package" value="com.cloudfiveapp.cordova.plugins.push.CloudFivePush" />
     </feature>
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+    </feature>
     <name>Mobile Doorman</name>
     <description>
         Apartment building management app

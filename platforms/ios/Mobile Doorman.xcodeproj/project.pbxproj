@@ -40,6 +40,10 @@
 		2F7DEE846C7A47BCBDF1C25B /* CloudFivePush.m in Sources */ = {isa = PBXBuildFile; fileRef = 457F21A4DEEA4B0B840692D8 /* CloudFivePush.m */; };
 		AF58324C8C494BAFA9E65F9C /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = 35FAEA474A80406BA957FAE7 /* AppDelegate+notification.m */; };
 		BB3D0FC3A9BB4A05BB8BEBDD /* engage.aiff in Resources */ = {isa = PBXBuildFile; fileRef = F7BBB20051804DFE89D3C1A1 /* engage.aiff */; };
+		5A58FFCD40C14821A2F743C3 /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C1D33DFCBE0C44749A115DB3 /* CDVCamera.m */; };
+		66CA73C93B6744D3968C4257 /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B5F5AFDEE8400893FF69EB /* CDVJpegHeaderWriter.m */; };
+		710E6CDBA6554F52B7518CDA /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA1735B791EE4CEFAB159C0F /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		1655793FC4174167A4C3EDD4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F09F69240DAE462A995198B7 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +112,13 @@
 		ACC8085A0B944D27AFAAB341 /* CloudFivePush.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CloudFivePush.h"; path = "com.cloudfiveapp.push/CloudFivePush.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		AE406AFFD4EA44E4A8AD8BE7 /* AppDelegate+notification.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+notification.h"; path = "com.cloudfiveapp.push/AppDelegate+notification.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		F7BBB20051804DFE89D3C1A1 /* engage.aiff */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "engage.aiff"; path = "engage.aiff"; sourceTree = "<group>"; fileEncoding = 4; };
+		C1D33DFCBE0C44749A115DB3 /* CDVCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVCamera.m"; path = "org.apache.cordova.camera/CDVCamera.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		E5B5F5AFDEE8400893FF69EB /* CDVJpegHeaderWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CDVJpegHeaderWriter.m"; path = "org.apache.cordova.camera/CDVJpegHeaderWriter.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		87DF44EA41F94F5EBC8554D9 /* CDVCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVCamera.h"; path = "org.apache.cordova.camera/CDVCamera.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		1D559F820E05462581114B6C /* CDVJpegHeaderWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVJpegHeaderWriter.h"; path = "org.apache.cordova.camera/CDVJpegHeaderWriter.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		748A600C1DC6476B8C47D18E /* CDVExif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVExif.h"; path = "org.apache.cordova.camera/CDVExif.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		EA1735B791EE4CEFAB159C0F /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		F09F69240DAE462A995198B7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreLocation.framework"; path = "System/Library/Frameworks/CoreLocation.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +130,8 @@
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				305D5FD1115AB8F900A74A75 /* MobileCoreServices.framework in Frameworks */,
+				710E6CDBA6554F52B7518CDA /* ImageIO.framework in Frameworks */,
+				1655793FC4174167A4C3EDD4 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,6 +225,8 @@
 				5B1594DC16A7569C00FEF299 /* AssetsLibrary.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				305D5FD0115AB8F900A74A75 /* MobileCoreServices.framework */,
+				EA1735B791EE4CEFAB159C0F /* ImageIO.framework */,
+				F09F69240DAE462A995198B7 /* CoreLocation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -231,6 +246,11 @@
 				35FAEA474A80406BA957FAE7 /* AppDelegate+notification.m */,
 				ACC8085A0B944D27AFAAB341 /* CloudFivePush.h */,
 				AE406AFFD4EA44E4A8AD8BE7 /* AppDelegate+notification.h */,
+				C1D33DFCBE0C44749A115DB3 /* CDVCamera.m */,
+				E5B5F5AFDEE8400893FF69EB /* CDVJpegHeaderWriter.m */,
+				87DF44EA41F94F5EBC8554D9 /* CDVCamera.h */,
+				1D559F820E05462581114B6C /* CDVJpegHeaderWriter.h */,
+				748A600C1DC6476B8C47D18E /* CDVExif.h */,
 			);
 			name = Plugins;
 			path = "Mobile Doorman/Plugins";
@@ -428,6 +448,8 @@
 				302D95F114D2391D003F00A1 /* MainViewController.m in Sources */,
 				2F7DEE846C7A47BCBDF1C25B /* CloudFivePush.m in Sources */,
 				AF58324C8C494BAFA9E65F9C /* AppDelegate+notification.m in Sources */,
+				5A58FFCD40C14821A2F743C3 /* CDVCamera.m in Sources */,
+				66CA73C93B6744D3968C4257 /* CDVJpegHeaderWriter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

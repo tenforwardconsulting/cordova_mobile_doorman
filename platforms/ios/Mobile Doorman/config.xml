@@ -22,6 +22,10 @@
     <feature name="CloudFivePush">
         <param name="ios-package" value="CloudFivePush" />
     </feature>
+    <feature name="Camera">
+        <param name="ios-package" value="CDVCamera" />
+    </feature>
+    <preference name="CameraUsesGeolocation" value="false" />
     <name>Mobile Doorman</name>
     <description>
         Apartment building management app
